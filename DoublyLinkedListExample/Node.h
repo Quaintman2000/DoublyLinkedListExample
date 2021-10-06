@@ -4,19 +4,24 @@
 using namespace std;
 
 // Declaring the node class.
-template<class Z> class Node
+//template<class Z> 
+class Node
 {
 
+	
+public: 
 	// Stores the key.
-public: int key;
+	int key;
 	// Stores the data.
-	 Z data;
+	 //Z data;
+	int data;
 	// Points to the next node.
 	 Node* next;
 	// Points to the prev node.
 	 Node* prev;
 	
-
+	 // Constructors.
 	 Node();
-	 Node(int k, Z d);
+	 //Node(int k, Z d);
+
 };
